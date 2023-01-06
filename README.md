@@ -17,7 +17,7 @@ Hey there! This project is just for educational and demonstration purposes. It's
 #### Get a story
 
 ```http
-  GET /api/topStories/${section}/:${index}
+  GET /api/topStories/${section}/${index}
 ```
 
 | Parameter | Type     | Description                |
