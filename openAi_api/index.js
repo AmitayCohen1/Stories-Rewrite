@@ -4,16 +4,16 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
-const askOpenAi = async (promt) => {
-
+const askOpenAi = async (title, abstract) => {
   try {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: `"Write an article about ${promt}". The vibe should feel high class, gay guy from new york.`,
+      prompt: `"This is the title of an article - ${title} And this is its abstract - ${abstract}.
+      Rewrite it, in a high-class, gay guy from New York vibe.
+      Include a title and a body. Write this  - "ORIGINAL TITLE:${title}" , ORIGINAL ABSTRACT:${abstract}, in the end.`,
       max_tokens: 2048,
-    //   temperature: 0,
+      //   temperature: 0,
     });
-
     return response.data.choices[0].text;
   } catch (error) {
     if (error.response) {

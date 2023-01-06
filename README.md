@@ -1,5 +1,5 @@
 # Content Generation 
-An API that generates content based on the New York Times' top stories, using OpenAI.
+Takes stories from the New York Times and regenerate it in a "High class, gay guy from new york" vibe using OpenAI.
 
 ## Steps
 - Create a New York Times dev account https://developer.nytimes.com/

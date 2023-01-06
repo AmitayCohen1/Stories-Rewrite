@@ -1,6 +1,5 @@
 const NYT_API_BASE_URL = "https://api.nytimes.com/svc/topstories/v2/";
 
-
 const NYT_API_ROUTES = {
   HOME: `home`,
   ARTS: `arts`,
