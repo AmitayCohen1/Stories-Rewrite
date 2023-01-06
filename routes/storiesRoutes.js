@@ -6,24 +6,21 @@ const askOpenAi = require("../openAi_api");
 
 router.get("/us/:index", async (req, res) => {
   const { index } = req.params;
-  const homeData = await getStories(NYT_API_ROUTES.US, index);
-  const { title, abstractData } = homeData;
+  const { title, abstractData } = await getStories(NYT_API_ROUTES.US, index);
   const openRes = await askOpenAi(title, abstractData);
   res.status(200).send(openRes);
 });
 
 router.get("/science/:index", async (req, res) => {
   const { index } = req.params;
-  const homeData = await getStories(NYT_API_ROUTES.SCIENCE, index);
-  const { title, abstractData } = homeData;
+  const { title, abstractData } = await getStories(NYT_API_ROUTES.SCIENCE, index);
   const openRes = await askOpenAi(title, abstractData);
   res.status(200).send(openRes);
 });
 
 router.get("/arts/:index", async (req, res) => {
   const { index } = req.params;
-  const homeData = await getStories(NYT_API_ROUTES.ARTS, index);
-  const { title, abstractData } = homeData;
+  const { title, abstractData } = await getStories(NYT_API_ROUTES.ARTS, index);
   const openRes = await askOpenAi(title, abstractData);
   res.status(200).send(openRes);
 });
