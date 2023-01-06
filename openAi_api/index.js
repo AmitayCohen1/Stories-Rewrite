@@ -5,11 +5,14 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const askOpenAi = async (title, abstract) => {
+  
+  const style = 'high-class, gay guy from New York'
+
   try {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: `"This is the title of an article - ${title} And this is its abstract - ${abstract}.
-      Rewrite it, in a high-class, gay guy from New York vibe.
+      Rewrite it, in a ${style} vibe.
       Include a title and a body. Write this  - "ORIGINAL TITLE:${title}" , ORIGINAL ABSTRACT:${abstract}, in the end.`,
       max_tokens: 2048,
       //   temperature: 0,

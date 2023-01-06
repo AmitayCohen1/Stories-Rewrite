@@ -1,5 +1,8 @@
-# Content Generation 
-Takes stories from the New York Times and regenerate it in a "High class, gay guy from new york" vibe using OpenAI.
+# Stories Rewrite
+Rewrite New York Times top stories in any style you want using OpenAI API.
+
+# Default  Vibe 
+"High class 👠 , Gay guy 🏳️‍🌈 from New York 🗽"
 
 ## Steps
 - Create a New York Times dev account https://developer.nytimes.com/
