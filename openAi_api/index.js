@@ -11,9 +11,8 @@ const askOpenAi = async (title, abstract) => {
   try {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: `"This is the title of an article - ${title} And this is its abstract - ${abstract}.
-      Rewrite it, in a ${style} vibe.
-      Include a title and a body. Write this  - "ORIGINAL TITLE:${title}" , ORIGINAL ABSTRACT:${abstract}, in the end.`,
+      prompt: `"This is the title of an article - ${title} And this is its abstract - ${abstract}. Rewrite it, in a ${style} vibe.
+      Include a title and a body, and an author name that match the vibe.`,
       max_tokens: 2048,
       //   temperature: 0,
     });
