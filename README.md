@@ -1,7 +1,7 @@
 # Stories Rewrite
 Rewrite New York Times top stories in any style you want using OpenAI API.
 
-# Default  Vibe 
+## Default  Vibe 
 "High class 👠 , Gay guy 🏳️‍🌈 from New York 🗽"
 
 ## Steps
