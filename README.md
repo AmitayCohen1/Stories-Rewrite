@@ -7,13 +7,13 @@ Rewrite New York Times top stories in any style you want using OpenAI API.
 " 👠High class , 🏳️‍🌈 Gay guy, 🗽 New York "
 
 ##### Rose
-"👩‍🦰 Young women, 💪Feminist, 🎨Artist"
+"👩‍🦰 Young women, 💪 Feminist, 🎨 Artist"
 
 ##### Karen
-"👩‍🏫Highly critical, 📐Math 🎓Professor"
+"👩‍🏫 Highly critical, 📐 Math 🎓 Professor"
 
 ##### Sherlock 
-"🕵️Sherlock Holmes"
+"🕵️ Sherlock Holmes"
 
 
 ## Steps
