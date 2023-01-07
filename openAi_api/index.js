@@ -5,10 +5,11 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const askOpenAi = async (title, abstract) => {
-  
+
   const Dave = "high-class, gay guy from New York";
-  const Rose = "Young feminist women with a PHD";
-  const Karen = "Highly critical person";
+  const Rose = "Young feminist artist women";
+  const Karen = "Highly critical math professor";
+  const Sherlock = "Sherlock Holmes";
 
   try {
     const response = await openai.createCompletion({
