@@ -1,5 +1,5 @@
 # Stories Rewrite
-Rewrite New York Times top stories in any style you want using OpenAI API.
+Rewrite New York Times top 📝stories in any 💄style you want using OpenAI API.
 
 ## Default  Vibes 
 
