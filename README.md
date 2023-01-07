@@ -4,6 +4,7 @@ Rewrite New York Times top stories in any style you want using OpenAI API.
 ## Default  Vibes 
 
 Dave: " 👠High class , 🏳️‍🌈 Gay guy, 🗽 New York "
+
 Rose: "👩‍🦰 Young women, 💪Feminist, 🎨Artist"
 
 ### Karen
