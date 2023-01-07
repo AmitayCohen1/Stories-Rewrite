@@ -7,7 +7,7 @@ Dave: " 👠High class , 🏳️‍🌈 Gay guy, 🗽 New York "
 
 Rose: "👩‍🦰 Young women, 💪Feminist, 🎨Artist"
 
-### Karen
+#### Karen
 "👩‍🏫Highly critical, 📐Math 🎓Professor"
 
 ### Sherlock 
