@@ -1,7 +1,7 @@
 # Stories Rewrite
 Rewrite New York Times top stories in any style you want using OpenAI API.
 
-## Default  Vibes 
+### Default  Vibes 
 
 #### Dave
 " 👠High class , 🏳️‍🌈 Gay guy, 🗽 New York "
