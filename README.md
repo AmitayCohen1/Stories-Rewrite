@@ -3,14 +3,16 @@ Rewrite New York Times top stories in any style you want using OpenAI API.
 
 ## Default  Vibes 
 
-Dave: " 👠High class , 🏳️‍🌈 Gay guy, 🗽 New York "
+#### Dave
+" 👠High class , 🏳️‍🌈 Gay guy, 🗽 New York "
 
-Rose: "👩‍🦰 Young women, 💪Feminist, 🎨Artist"
+#### Rose
+"👩‍🦰 Young women, 💪Feminist, 🎨Artist"
 
 #### Karen
 "👩‍🏫Highly critical, 📐Math 🎓Professor"
 
-### Sherlock 
+#### Sherlock 
 "🕵️Sherlock Holmes"
 
 
