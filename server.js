@@ -4,6 +4,9 @@ const app = express();
 const topStories = require('./routes/storiesRoutes')
 
 app.use(express.json())
+app.get('/test', (req,res) =>  { 
+  res.send('nice!')
+})
 app.use('/api/topStories', topStories)
 
 
