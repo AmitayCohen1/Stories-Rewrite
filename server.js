@@ -8,7 +8,7 @@ app.use('/api/topStories', topStories)
 
 
 app.listen(process.env.PORT || 8080, () => {
-  console.log(`Server listening on port ${process.env.PORT}`);
+  console.log(`Server listening on port ${process.env.PORT || 8080}`);
 });
 
 
